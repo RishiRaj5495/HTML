@@ -1,0 +1,54 @@
+#second{
+    text-align: center;
+    font-size:25px ;
+    color: red;
+    background-color: black;
+}
+#comtainer{
+    background-color: blue;
+    margin: 20px;
+    height:150px; 
+    width: 550px;
+padding: 10px;
+border: solid black;
+display: flex;
+
+justify-content: center;
+
+flex-grow: 3;
+
+
+}
+.box{
+    font-size: 20px;
+    color:red;
+    
+    margin:5px ;
+    height:130px;
+    width:300px;
+    text-align: center;
+    border:black solid ;
+  
+
+    
+}
+     
+#box1{
+    background-color: blueviolet;
+    flex-shrink: 2;
+    order: 4;
+}
+#box2{
+    background-color: yellow;
+order: 1;
+}
+#box3{
+background-color: chartreuse;
+
+}
+#box4{
+    background-color: teal;
+}
+#box5{
+background-color: cornflowerblue;
+}

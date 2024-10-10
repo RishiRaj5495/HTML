@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: b0rder-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,  Helvetica, Arial,sans-serif ;
+}
+header{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    border-bottom: 1px solid rgba(187, 177, 177, 0.726);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_container{
+    margin-left: 2%;
+}
+.myntra_logo{
+
+ height: 36px;
+ 
+}
+.action_bar{
+
+    margin-left:4%;
+}
+.nav_bar{
+    display: flex;
+  min-width: 500px;
+    justify-content: space-evenly;
+    
+}
+.nav_bar a{
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px  0;
+    
+
+}
+
+.nav_bar a sub{
+    color: red;
+    font-size: 10px;
+}
+.search{
+    width: 30%px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+
+
+}
+.search_bar{
+background-color:rgba(14, 6, 6, 0.089);
+  height:25px ;
+  width: 350px;
+  border: 0;
+   border-radius: 0 6px 6px 0;
+}
+.action_bar{
+display: flex;
+width: 107px;
+justify-content: space-evenly;
+}
+.action_container{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.action_name{
+    font-size: 10px;
+}
+.nav_bar1 :hover{
+     border-bottom: 2px solid darkorchid;
+}
+
+.nav_bar2 :hover{
+    border-bottom: 2px solid  darkred;
+    
+}
+.nav_bar3 :hover{
+    border-bottom: 2px solid rgb(211, 233, 10);
+    
+}
+.nav_bar4 :hover{
+    border-bottom: 2px solid rgb(214, 124, 13);
+    
+}
+.nav_bar5 :hover{
+    border-bottom: 2px solid  rgb(48, 13, 204);
+}
+.nav_bar6 :hover{
+
+    border-bottom: 2px solid rgb(24, 230, 24);
+}
+
+.banner_image{
+   
+    
+    
+    
+   margin: 0px 0;
+
+}
+.image1{
+
+    width: 95%;
+    margin-left: 2.5%;
+   
+    
+
+}
+.category_heading{
+
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: .1em;
+    font-size: 1.4em;
+font-weight: 750;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+
+}
+.top_deals{
+
+width: 80%;
+
+object-fit: contain;
+margin-left: 9.8%;
+
+
+}
+.item{
+    
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+  
+}
+.item1{
+   height: 200px;
+    
+    
+    
+}
+
+.item2{
+    
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+  
+}
+.must{
+   height: 300px;   
+}
+
+.footer_container{
+margin: 10%  0;
+display: flex;
+background-color: rgba(238, 228, 228, 0.144);
+margin: 0 0px;
+justify-content: space-evenly;
+}
+.footer_column{
+    
+    margin-top: 2%;
+    
+   
+    
+
+}
+
+.footer_column h3{
+    margin:0px 0.0% 20px 100% ;
+padding-top: 2%;
+font-size: 15px;
+letter-spacing: 1px;
+font-family: Georgia, Times, 'Times New Roman', serif
+
+}
+.footer_column a{
+ display: flex;
+    flex-direction: column;
+    font-size: small;
+    color: rgba(37, 12, 12, 0.753);
+    text-decoration: none;
+    font-weight: 500px;
+    margin: 2.7% 100% 0% 100%;
+}
+
+
