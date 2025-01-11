@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: b0rder-box;
+    box-sizing: border-box;
     font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,  Helvetica, Arial,sans-serif ;
 }
 header{
@@ -63,6 +63,7 @@ background-color:rgba(14, 6, 6, 0.089);
   width: 350px;
   border: 0;
    border-radius: 0 6px 6px 0;
+  
 }
 .action_bar{
 display: flex;
@@ -124,6 +125,7 @@ justify-content: space-evenly;
     color: black;
     letter-spacing: .1em;
     font-size: 1.4em;
+   
 font-weight: 750;
     margin: 50px 0 10px 30px;
     max-height: 5em;
@@ -140,7 +142,7 @@ margin-left: 9.8%;
 }
 .item{
     
-    margin: 2%;
+    margin: 2% ;
     display: flex;
     justify-content: space-evenly;
 flex-wrap: wrap;
@@ -153,42 +155,43 @@ flex-wrap: wrap;
     
 }
 
-.item2{
-    
-    margin: 2%;
+/* .new_container {
+    width:500px ;
+    margin: 50px 10%;
+    background-color: rgb(10, 46, 165);
     display: flex;
     justify-content: space-evenly;
 flex-wrap: wrap;
   
-}
+}  */
+
+
 .must{
    height: 300px;   
 }
 
 .footer_container{
-margin: 10%  0;
+/* margin: 10%  0; */
+padding: 30px 0px 40px 0px ;
 display: flex;
 background-color: rgba(238, 228, 228, 0.144);
-margin: 0 0px;
+/* margin: 0 0px; */
 justify-content: space-evenly;
 }
-.footer_column{
-    
+ .footer_column{
+    display: flex;
     margin-top: 2%;
     
-   
+ flex-direction: column;  
     
 
 }
 
 .footer_column h3{
-    margin:0px 0.0% 20px 100% ;
-padding-top: 2%;
-font-size: 15px;
-letter-spacing: 1px;
-font-family: Georgia, Times, 'Times New Roman', serif
-
+    margin-bottom: 15px;
 }
+
+
 .footer_column a{
  display: flex;
     flex-direction: column;
@@ -196,7 +199,103 @@ font-family: Georgia, Times, 'Times New Roman', serif
     color: rgba(37, 12, 12, 0.753);
     text-decoration: none;
     font-weight: 500px;
-    margin: 2.7% 100% 0% 100%;
-}
+    
+} 
 
+.new_container{
+    widh: 500px;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+backgrund-color: rgb(51, 11, 230);
 
+      }
+      .new1_container{
+      width: 227px;
+      margin-top: 100px;
+      }
+    
+      .must_bitic{
+    width: 100%;
+      }
+      .akJagah{
+      width: 100%;
+      }
+    
+      .rating{
+    font-size: 12px;
+    font-weight: 700px;
+    
+      }
+      .company_name {
+        margin-top: 10px; ;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1;
+        color: black;
+        margin-bottom: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+      }
+    
+    
+      .item_name{
+    
+    color: black;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 400;
+    display: block;
+      }
+      .price{
+        width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1;
+    color: black;
+    white-space: nowrap;
+      }
+      .current-price{
+        font-size: 14px;
+        font-weight: 700;
+        color: black;
+    
+    
+      }
+      .original-price{
+    
+        text-decoration: line-through;
+        color: black;
+        font-size:12px ;
+        font-weight: 400;
+        margin-left: 5px;
+    
+    
+      }
+      .discount{
+    
+    color: tomato;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+      }
+    
+      .btn-add-bag{
+    
+    background-color: rgb(7, 223, 54);
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+      }
