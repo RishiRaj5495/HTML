@@ -79,6 +79,22 @@ justify-content: space-evenly;
 .action_name{
     font-size: 10px;
 }
+.bahItem{
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 6px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  color: #fff;
+  left: 13px;
+  top: -30px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
 .nav_bar1 :hover{
      border-bottom: 2px solid darkorchid;
 }
