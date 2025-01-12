@@ -3,8 +3,31 @@
 
 
 let createScript = document.querySelector('.new_container');
+
+
+
+let arr = [];
+
+//display();
+function addToBag(itemId){
+ arr.push(itemId);
+ display();
+}
+
+function display(){
+let display = document.querySelector('.bahItem');
+if(display > 0)
+ display.innerText = arr.length;
+else{
+  document.querySelector('.bahItem') = hidden;
+}
+
+}
+
+
 const itemc = [
   {
+    id : '001',
   image :'Image/must1.png',
   rating : {
     star: 4.5,
@@ -21,6 +44,7 @@ discount_Precentage: '45',
 
 
   {
+    id : '002',
     image :'Image/must3.png',
     rating : {
       star: 4.5,
@@ -35,6 +59,8 @@ discount_Precentage: '45',
     },
 
     {
+      id :'003',
+      
       image :'Image/must2.png',
       rating : {
         star: 4.5,
@@ -49,7 +75,8 @@ discount_Precentage: '45',
       },
 
       {
-        image :'Image/must1.png',
+        id :'004',
+        image :'Image/must4.png',
         rating : {
           star: 4.5,
           noOfReviews : 1400,
@@ -64,8 +91,9 @@ discount_Precentage: '45',
       
       
       
-        {
-          image :'Image/must3.png',
+        { 
+          id : '005',
+          image :'Image/must5.png',
           rating : {
             star: 4.5,
             noOfReviews : 1400,
@@ -79,7 +107,9 @@ discount_Precentage: '45',
           },
       
           {
-            image :'Image/must2.png',
+            id :'006',
+
+            image :'Image/must6.png',
             rating : {
               star: 4.5,
               noOfReviews : 1400,
@@ -91,8 +121,94 @@ discount_Precentage: '45',
           original_Price : '1045.000',
           discount_Precentage: '45',
             },
-      
-      
+
+            {
+              id :'007',
+              image :'Image/must7.png',
+              rating : {
+                star: 4.5,
+                noOfReviews : 1400,
+              },
+            
+              company_name : ' Malvia',
+            
+            item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+            original_Price : '1045.000',
+            discount_Precentage: '45',
+              },
+              {
+                id :'008',
+                image :'Image/must8.png',
+                rating : {
+                  star: 4.5,
+                  noOfReviews : 1400,
+                },
+              
+                company_name : ' Malvia',
+              
+              item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+              original_Price : '1045.000',
+              discount_Precentage: '45',
+                },
+
+                {
+                  id :'009',
+                  image :'Image/must9.png',
+                  rating : {
+                    star: 4.5,
+                    noOfReviews : 1400,
+                  },
+                
+                  company_name : ' Malvia',
+                
+                item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+                original_Price : '1045.000',
+                discount_Precentage: '45',
+                  },    
+                  {id :'010',
+
+                    image :'Image/must10.png',
+                    rating : {
+                      star: 4.5,
+                      noOfReviews : 1400,
+                    },
+                  
+                    company_name : ' Malvia',
+                  
+                  item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+                  original_Price : '1045.000',
+                  discount_Precentage: '45',
+                    },
+
+                    {
+                      id :'011',
+                      image :'Image/must11.png',
+                      rating : {
+                        star: 4.5,
+                        noOfReviews : 1400,
+                      },
+                    
+                      company_name : ' Malvia',
+                    
+                    item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+                    original_Price : '1045.000',
+                    discount_Precentage: '45',
+                      },
+
+                      {id :'012',
+
+                        image :'Image/must12.png',
+                        rating : {
+                          star: 4.5,
+                          noOfReviews : 1400,
+                        },
+                      
+                        company_name : ' Malvia',
+                      
+                      item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+                      original_Price : '1045.000',
+                      discount_Precentage: '45',
+                        },
 
 ]
 let innHtml = '';
@@ -114,21 +230,16 @@ itemc.forEach( item => {
            <span class="discount">(${item.discount_Precentage}% OFF)</span>
       
             </div>
-            <button class="btn-add-bag" onclick="addToBag() " >Add to Bag
+            <button class="btn-add-bag" onclick="addToBag(${item.id}) " >Add to Bag
       
             </button>
             
           </div>
         </div> `
 });
-let arr = [9];
+
  createScript.innerHTML = innHtml;
- function addToBag(){
-  let sum = 0;
- sum = sum + 1;
- arr.push(sum);
+
  
-
-
- }
- console.log(arr);
+ 
+  console.log(arr);
