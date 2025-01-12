@@ -114,12 +114,21 @@ itemc.forEach( item => {
            <span class="discount">(${item.discount_Precentage}% OFF)</span>
       
             </div>
-            <button class="btn-add-bag">Add to Bag
+            <button class="btn-add-bag" onclick="addToBag() " >Add to Bag
       
             </button>
             
           </div>
         </div> `
 });
-
+let arr = [9];
  createScript.innerHTML = innHtml;
+ function addToBag(){
+  let sum = 0;
+ sum = sum + 1;
+ arr.push(sum);
+ 
+
+
+ }
+ console.log(arr);
