@@ -8,7 +8,7 @@ let createScript = document.querySelector('.new_container');
 
 let arr = [];
 
-//display();
+display();
 function addToBag(itemId){
  arr.push(itemId);
  display();
@@ -16,10 +16,11 @@ function addToBag(itemId){
 
 function display(){
 let display = document.querySelector('.bahItem');
-if(display > 0)
- display.innerText = arr.length;
+if(arr.length > 0){
+  display.style.visibility = 'visible';
+ display.innerText = arr.length;}
 else{
-  document.querySelector('.bahItem') = hidden;
+  display.style.visibility = 'hidden';
 }
 
 }
