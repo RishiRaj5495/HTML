@@ -1,0 +1,225 @@
+
+*{
+
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style : normal;
+  
+
+}
+#navigation-bar{
+
+align-items: center;
+  height: 50px;
+  background-color: rgba(20, 3, 3, 0.041);
+ 
+  border: solid  rgba(214, 199, 197, 0.322);
+  display: flex;
+  margin-top: 0px ;
+
+  
+}
+.home{
+  background: url("images/image.jpg");
+color: white;
+padding: 10px;
+height: 26px;
+font-size: 20px;
+border-radius: 10px;
+cursor: pointer;
+display: flex;
+
+
+
+}
+.homie{
+  font-size: 12px;
+ align-self: center;
+ color: rgb(11, 197, 230);
+}
+
+.calls{
+  font-size: 12px;
+  color:rgb(11, 228, 11);
+  
+}
+
+.contact{
+  min-width: 366px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(53, 175, 28);
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.right-nav{
+  min-width: 238px;
+  justify-content: space-evenly;
+  width: 531px;
+  margin-left: 406px;
+
+  display: flex;
+}
+.call-icon{
+  height: 20px;
+font-size: 20px;
+border-radius: 10px;
+  color: white;
+  background: url("images/image.jpg ");
+  
+ 
+  padding: 10px;
+  cursor: pointer;
+}
+.direction{
+  height: 20px;
+font-size: 20px;
+border-radius: 10px;
+  background: url("images/image.jpg");
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+
+  
+
+
+}
+
+.share{
+  height: 20px;
+font-size: 20px;
+border-radius: 10px;
+  background: url("images/image.jpg");
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.photos{
+  height: 20px;
+font-size: 20px;
+border-radius: 10px;
+
+  background: url("images/image.jpg");
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+#grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px
+
+}
+
+
+.center{
+  justify-items: cener;
+ /* margin-top: 6px; */
+ 
+}
+#shopName{
+  border-radius: 20px;
+  height: 80px;
+  padding: 0 20px;
+  width: 300px;
+font-size: 200%;
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style : normal;
+  background: url("images/image.jpg");
+ color: whitesmoke;
+ text-align: center;
+ align-content: center;
+ color: yellow;
+}
+#contents{
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+margin-left:100px ;
+
+
+}
+.content{
+  
+  height: 70px;
+  width: 100px;
+margin-right: 100px;
+ text-align: center;
+ align-content: center;
+ border:solid rgba(0, 0, 0, 0.473);
+ padding: 0 20px ;
+
+ background: url("images/image.jpg");
+ color: white;
+ cursor: pointer;
+}
+#firstItem{
+ 
+}
+#secondItem{
+ 
+
+}
+#thirdItem{
+
+
+}
+
+.content1{
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid  rgba(214, 199, 197, 0.322);
+  /* height: 100px; */
+
+}
+
+
+
+.item_Content{
+  margin: 10px;
+
+
+}
+.image_And_Problem{
+
+
+  display: flex;
+  align-content: center;
+  flex: wrap;
+
+}
+.image_And_Problem1{
+/* display: none; */
+margin-right: 10px;
+
+}
+
+.image_data {
+  
+  
+}
+.problem{
+  
+
+}
+
+.micRepair{
+
+height: 150px;
+width: 300px;
+
+}
+.problem_Name{
+margin-bottom: 15px;
+
+}
+.problem{
+font-size: 14px;
+
+}
