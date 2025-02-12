@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    #mira{
+  
+      border-radius:50px;
+   
+      background-color: rgb(226, 236, 236);
+      height: 50px;
+      width: 150px;
+      
+      text-align: center;
+      
+  shadow: 8px 8px 10px rgb(3, 15, 14); animation-name:myButton;
+  animation-duration: 2s;
+  animation-delay: 0;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+
+  }
+
+
+
+    #mira:hover{
+    /* transform: scale(1.1);
+      transition: 2s  ; */
+    
+   
+     
+
+    }
+   
+
+
+    
+
+
+    @keyframes myButton {
+      from{
+        margin-left:0px;
+        background-color: darkgreen;
+      }
+     
+to{
+  margin-left:  250px;
+        font-size: 50px;
+      background-color:brown
+   }
+    }
+
+    .border{
+      border: solid black;
+      
+    }
+    .press{
+     color: blueviolet;
+     margin:  0  auto;    }
+     .grid-box{
+      width: 600px;
+  height: 600px;
+
+background-color: rgb(0, 255, 234);
+      display: grid;
+      
+      
+grid-template-columns: repeat(12,1fr);
+
+grid-template-rows:repeat(10,1fr);
+row-gap: 10px;
+grid-gap: 10px;
+     }
+    .header{
+  background-color: rgb(255, 0, 0);
+grid-column:1/span 12;
+
+     }
+
+     .sidebar{
+background-color: rgb(241, 12, 12);
+      grid-row: 2 / span 8;
+      grid-column: 1/ span 3;
+
+     }
+
+
+     .Navigation{
+    grid-row: 2 / span 1 ;
+    grid-column: 4/ span 6;
+    background-color: rgb(241, 12, 12);
+     }
+     .ads{
+      grid-row: 2 / span 8;
+      background-color: rgb(241, 12, 12);
+      grid-column: 10/ span 3;
+     }
+
+    .main-content{
+      grid-column: 4/ span 6;
+      grid-row: 3 / span 7;
+      background-color: rgb(241, 12, 12);
+    }
+
+.footer{
+
+  grid-column: 1/ span 12;
+  background-color: rgb(241, 12, 12);
+}
+
+.loader{
+  border:16px solid#f3f3f3;
+  border-top:16px solid goldenrod;border-radius:50%;
+  width:120px;
+  height:120px;
+  animation:spin 2s  infinite;
+
+}
+
+
+@keyframes spin{
+  
+  0%{
+  transform : rotate(0deg);
+
+  }
+  100%{
+    transform : rotate(360deg); 
+  
+  }}
+
+
+     #uuuu{
+      
+    
+
+
+
+ border-radius:50px;
+
+      height: 52px;
+      width: 400px;
+      border: solid black;
+      align-content: center;
+      animation: content 2s ease-in  infinite ;
+      
+
+
+     
+      
+    
+     }
+@keyframes content{
+
+from{
+ 
+  background-color: palegoldenrod;
+}
+
+to{
+  background-color: yellow;
+ 
+}
+
+  
+}
+  </style>
+</head>
+<body>
+  <form action="https://www.google.com">
+    <div> 
+      <div><h1>Search anything on your screen</h1></div>
+    <label for="user">Yourname :</label>
+    <input  placeholder="username" name="rawQuery" id="user"></div>
+
+  <!-- <button>search</button> -->
+   <div class="bag-item-container">
+    <div class="item-left-part">
+      <img class="bag-item-image" src="Image/must11.png" alt="image">
+
+    </div>
+    <div class="item-right-part"></div>
+   </div>
+
+   
+   <div id="uuuu">
+    <div id="mira">
+    <div>Press </div></div>
+     </div>
+    <br><br><br><br>
+
+
+
+     <div  class="grid-box">
+
+      <header class="header">header</header>
+      <div class="sidebar"> sidebar </div>
+       <nav class="Navigation">Navigation</nav>
+       <div class="ads">ads</div>
+       <main class="main-content">main</main>
+       <footer class="footer"> footer</footer>
+
+       
+
+
+
+
+
+
+
+     </div>
+     <h1>Loader</h1>
+     <div class="loader"></div>
+
+
+   <script>
+
+let item = {
+  id : '001',
+  image :'Imagess/must1.png',
+  rating : {
+    star: 4.5,
+    noOfReviews : 1400,
+  },
+
+  company_name : ' Malvia',
+
+item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+original_Price : '1045.000',
+discount_Precentage: '45',
+
+
+}
+
+
+
+
+
+
+   </script>
+</body>
+</html>
