@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+
+.a{
+ 
+ height: 500px;
+ width: 405px;
+ background-color: aqua;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-content: space-evenly;
+box-shadow: 14px 14px 14px rgb(32, 235, 5);
+border: solid rgb(64, 241, 10);
+}
+.a:hover{
+transition: 4s ;
+ transform: rotate(360deg);
+ background-color: rgb(165, 42, 89);
+ 
+ 
+}
+.b{
+  box-shadow: 7px 0px 7px rgb(8, 15, 1);
+  transform: scale();
+ 
+  text-align: center;
+  align-content: center;
+ font-size: 70px;
+/* margin-top: 50px; */
+
+  height: 100px;
+  width: 100px;
+
+  background-color: blueviolet ;
+  border: solid black;
+}
+.b:hover{
+cursor: pointer;
+ box-shadow: 14px 14px 14px rgb(8, 15, 1);
+ transition: 2s;
+ transform: rotate(360deg);
+ background-color: sandybrown;
+}
+
+#rect{
+height: 300px;
+width: 300px;
+
+
+}
+/* #rect :hover{
+   transform: rotate(360deg); 
+  transition: 2s;
+  background-color: blueviolet;
+} */
+.face{
+  
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  border-radius: 300px;
+ 
+
+}
+
+
+
+
+
+.ankhey{
+position: absolute;
+
+margin-top: 70px;
+
+ 
+  
+  
+  
+  
+  
+
+}
+
+
+.ankh{
+
+  
+  
+  height: 50px;
+  width: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 100px;
+ margin-right: 70px;
+  
+  
+}
+.mouth{
+position: relative;
+top: 200px;
+left: 50px;
+  height: 50px;
+  width: 200px;
+  
+
+ background-color: brown;
+ border-radius: 0 0 50px 50px ;
+
+}
+
+
+.right{
+ 
+    margin-left:60px ;
+    
+   
+  display:flex
+  
+  
+
+}
+#mkm{
+  height: 300px;
+width: 300px;
+background-color: aqua;
+box-shadow: 10px 10px 10px  ;
+
+ 
+}
+
+#mkm:hover{
+  transition: 2s;
+  transform: rotate(360deg);
+  background-color: yellowgreen;
+box-shadow: 20px 20px 20px ;
+}
+.grid-container{
+  width: 600px;
+  height: 600px;
+background-color: yellow;
+display: grid;
+
+grid-template-rows : repeat(5,1fr);
+grid-template-columns : repeat(2,1fr);
+grid-gap: 10px;
+}
+.grid-box{
+/* <!-- height: 50px; --> */
+width: 100px;
+background-color:white;
+
+border: solid black;
+text-align: center;
+align-content: center;
+font-size: 40px;
+}
+
+
+  </style>
+</head>
+
+
+
+
+<body>
+  <form action="https://www.youtube.com/results">
+    <div> 
+      <div><h1>Search new shows on your screen</h1></div>
+    <label for="user">Yourname :</label>
+    <input type="text" placeholder="username" name="search_query" id="user"></div>
+<!-- <div>
+    <label for="pass">Password  </label>
+    <input type="password" name="password" id="pass" placeholder="Enter password">
+  </div> -->
+  <button>search</button>
+  </form>
+<div id="mkm" >
+  <div id="rect">
+    <div class="face">
+    <div class="ankhey">
+  <div class="right">
+      <div class="ankh"></div>
+      <div class="ankh"></div>
+    </div>
+    </div>
+
+
+     <div class="mouth"></div>
+    </div>
+
+
+ 
+  </div>
+</div>
+ <br><br><br><br>
+  <div class="a">
+    <div class="b">1</div>
+    <div class="b">2</div>
+    <div class="b">3</div>
+
+    <div class="b">4</div>
+    <div class="b">5</div>
+    <div class="b">6</div>
+
+    <div class="b">7</div>
+    <div class="b">8</div>
+    <div class="b">9</div>
+     </div>
+
+<br><br><br><br>
+     <div class="grid-container">
+
+
+      <div class="grid-box">
+        <i class="fa-solid fa-diamond-turn-right"></i>
+      </div>
+      <div class="grid-box">
+        <i class="fa-solid fa-trash"></i>
+      </div>
+      <div class=" grid-box">3</div>
+      <div class="grid-box ">4</div>
+      <div class="grid-box ">5</div>
+      <div class="grid-box ">6</div>
+      <div class=" grid-box">7</div>
+      <div class=" grid-box">8</div>
+
+     </div>
+
+
+
+
+</body>
+</html>
