@@ -7,23 +7,23 @@ let createScript = document.querySelector('.new_container');
 
 
 let arr = []  ;
-console.log(arr);
-let bagItemStr = localStorage.getItem('itemId');
-arr = bagItemStr ? JSON.parse(bagItemStr) : [];
 
+let bagItemStr = localStorage.getItem('itemI');
+arr = bagItemStr ? JSON.parse(bagItemStr) : [];
+console.log( `mlmlmlm2 ${arr.length} `);
 display();
 function addToBag(itemId){
 
 
  arr.push(itemId);
- localStorage.setItem('itemId',JSON.stringify(arr));
+ localStorage.setItem('itemI',JSON.stringify(arr));
  
  display();
 }
 
-function display(itemId){
+function display(){
   //console.log(alert=`Item is already you selected ${itemId}`);
-  
+  console.log(`lllllll ${arr}`); 
 let display = document.querySelector('.bahItem');
 if(arr.length > 0 ){
   display.style.visibility = 'visible';
@@ -67,4 +67,5 @@ itemc.forEach( item => {
 
  
  
-  console.log(arr);
+  console.log(`tytytyt ${arr}`);
+console.log( `klklklk ${arr.length} `);
