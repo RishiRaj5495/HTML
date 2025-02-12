@@ -1,0 +1,138 @@
+*{
+ 
+margin: 0px ;
+
+font-family: "Poppins", serif;
+font-weight: 400;
+font-style: normal;
+}
+.background{
+
+
+background: url("cartoon.jpg");
+  height: 100vh;
+}
+
+.btn_name label i{
+
+font-size: 20px;
+font-weight: 700;
+position: absolute;
+left: 16px;
+line-height: 30px;
+cursor: pointer;
+
+
+}
+
+
+.btn_name label i:hover {
+  transform: scale(1.1);
+
+
+
+}
+.sidebar{
+  position: fixed;
+  left: -244px;
+  background-color: rgba(148, 65, 10, 0.123);
+  height: 100vh;
+  width: 200px;
+  box-shadow: 0 0 10px rgb(167, 76, 6);
+  transition: all 0.3s linear;
+
+}
+.sidebar .logo a{
+position: absolute;
+left:59px;
+color: rgb(228, 114, 7) ;
+text-decoration: none;
+
+box-shadow: 0 0 10px rgb(167, 76, 6);
+padding-left: 50px;
+margin-left: -55px;
+padding-right: 68px;
+padding-bottom: 10px;
+/* font-size: 16px; */
+font-weight: 700;
+margin-top: 7px;
+
+
+}
+
+.sidebar .btn_two i{
+  position: absolute;
+left: 182px;
+cursor: pointer;
+
+height: 34px;
+width: 100%;
+top: 10px;
+
+}
+.menu{
+
+  position: absolute;
+  top:59px;
+  left: -37px;
+
+}
+.sidebar .menu li{
+
+  padding: 10px 23px;
+ 
+  width: 100% ;
+
+
+}
+.sidebar .menu i{
+padding-right: 7px;
+
+/* color: rgb(7, 205, 219); */
+color: rgb(228, 114, 7) ;
+
+}
+
+.sidebar .menu li a{
+text-decoration: none;
+
+color: blanchedalmond;
+}
+.social_media {
+
+top:534px;
+left: 20px;
+  position: absolute;
+}
+.sidebar .menu li:hover{
+
+  box-shadow: 0 0  4px rgba(197, 219, 198, 0.219);
+
+}
+
+.social_media i{
+
+  color: blanchedalmond;
+
+  margin-right: 5px;
+  opacity: 0.7;
+}
+
+.social_media i:hover{
+
+  transform: scale(1.5);
+
+}
+
+#check:checked ~ .sidebar{
+
+  margin-left: 245px;
+}
+#check:checked ~ .btn_name{
+
+  opacity: 0;
+}
+#check{
+  display: none;
+
+}
