@@ -11,7 +11,7 @@
 #navigation-bar{
 
 align-items: center;
-  height: 50px;
+  height: 55px;
   background-color: rgba(20, 3, 3, 0.041);
  
   border: solid  rgba(214, 199, 197, 0.322);
@@ -24,7 +24,7 @@ align-items: center;
   background: url("images/image.jpg");
 color: white;
 padding: 10px;
-height: 26px;
+/* height: 26px; */
 font-size: 20px;
 border-radius: 10px;
 cursor: pointer;
@@ -32,6 +32,11 @@ display: flex;
 
 
 
+}
+.myclass{
+
+
+  font-size: 0px;
 }
 .homie{
   font-size: 12px;
@@ -65,7 +70,11 @@ display: flex;
   display: flex;
 }
 .call-icon{
-  height: 20px;
+  /* height: 20px; */
+height: 43px;
+
+
+ 
 font-size: 20px;
 border-radius: 10px;
   color: white;
@@ -76,7 +85,9 @@ border-radius: 10px;
   cursor: pointer;
 }
 .direction{
-  height: 20px;
+  /* height: 20px; */
+
+  height: 43px;
 font-size: 20px;
 border-radius: 10px;
   background: url("images/image.jpg");
@@ -90,7 +101,8 @@ border-radius: 10px;
 }
 
 .share{
-  height: 20px;
+  /* height: 20px; */
+  height: 43px;
 font-size: 20px;
 border-radius: 10px;
   background: url("images/image.jpg");
@@ -99,7 +111,8 @@ border-radius: 10px;
   cursor: pointer;
 }
 .photos{
-  height: 20px;
+  /* height: 20px; */
+  height: 43px;
 font-size: 20px;
 border-radius: 10px;
 
@@ -114,7 +127,9 @@ border-radius: 10px;
   grid-gap: 10px
 
 }
-
+/* .a{
+  height: 100vh;
+} */
 
 .center{
   justify-items: cener;
@@ -125,7 +140,7 @@ border-radius: 10px;
   border-radius: 20px;
   height: 80px;
   padding: 0 20px;
-  width: 300px;
+  width: 330px;
 font-size: 200%;
   font-family: "Lexend Deca", serif;
   font-optical-sizing: auto;
@@ -136,6 +151,7 @@ font-size: 200%;
  text-align: center;
  align-content: center;
  color: yellow;
+ margin-left: 5px;
 }
 #contents{
   display: flex;
@@ -144,16 +160,22 @@ font-size: 200%;
 margin-left:100px ;
 
 
+
 }
 .content{
   
-  height: 70px;
-  width: 100px;
+  /* height: 70px; */
+  /* cdn bad */
+/* height: 65px;  */
+height: 55px;
+  /* width: 100px; */
+  width: 150px;
 margin-right: 100px;
  text-align: center;
  align-content: center;
  border:solid rgba(0, 0, 0, 0.473);
  padding: 0 20px ;
+/* padding: 0px 12px 0px 12px ; */
 
  background: url("images/image.jpg");
  color: white;
@@ -161,53 +183,100 @@ margin-right: 100px;
 }
 #firstItem{
  
+  border-radius: 10px;
+ 
 }
 #secondItem{
- 
-
+  border-radius: 10px;
+  
 }
 #thirdItem{
-
-
+  border-radius: 10px;
+  ;
 }
 
 .content1{
   margin-top: 20px;
+  width: 350px;
   background-color: rgba(255, 255, 255, 0);
-  border: solid  rgba(214, 199, 197, 0.322);
-  /* height: 100px; */
-
+  /* border: solid  rgba(214, 199, 197, 0.322); */
+  border: solid  rgba(36, 6, 2, 0.116);
+  height: 200px; 
+  /* text-overflow:ellipsis; */
 }
 
+.button{
+position: relative;
+left: 245px;
+bottom: 28px;
+width: 50px;
+height: 24px;
+padding-right: 10px;
+width: 100px;
 
+box-shadow: none !important ;
+
+
+
+
+}
 
 .item_Content{
   margin: 10px;
 
 
 }
+.problemView{
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
 .image_And_Problem{
 
-
+/* margin-top: 16px;
   display: flex;
   align-content: center;
-  flex: wrap;
+  flex: wrap; */
 
+}
+.side{
+
+
+  position: relative;
+  right: -23;
+  width: 100px;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
 }
 .image_And_Problem1{
-/* display: none; */
-margin-right: 10px;
+
+/* margin-right: 10px; */
 
 }
-
 .image_data {
-  
-  
+ 
+
 }
 .problem{
-  
 
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+.content1 .item_Content button{
+
+position: relative;
+right: 20px;
+}
+.view{
+ 
+ /* position:relative;
+ left: 30px; */
+}
+
 
 .micRepair{
 
@@ -215,11 +284,31 @@ height: 150px;
 width: 300px;
 
 }
+.item-content-header{
+
+  margin-bottom: 0px;
+}
 .problem_Name{
-margin-bottom: 15px;
+
+ /* display: inline;
+margin-right: 511px; */
+font-size: 20px; 
+
+
+}
+.call-button {
+ width: 100px;
+ height: 25px;
+ background-color: rgba(29, 122, 5, 0.527);
+ font-size: 15px;
+ color: white;
 
 }
 .problem{
-font-size: 14px;
+font-size: 14px;}
 
-}
+
+
+
+
+
