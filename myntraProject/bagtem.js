@@ -1,6 +1,6 @@
 
  let bagItem ;
- console.log(bagItem);
+ console.log(bagItem+'tttttt');
 onload()
 function onload(){
   getItem();
