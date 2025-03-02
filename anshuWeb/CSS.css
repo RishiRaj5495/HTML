@@ -11,10 +11,10 @@
 #navigation-bar{
 
 align-items: center;
-  height: 55px;
-  background-color: rgba(20, 3, 3, 0.041);
+  height: 57px;
+  background-color: rgba(128, 128, 128, 0.021);
  
-  border: solid  rgba(214, 199, 197, 0.322);
+  box-shadow :0 0 1px rgb(134, 134, 134);
   display: flex;
   margin-top: 0px ;
 
@@ -183,16 +183,16 @@ margin-right: 100px;
 }
 #firstItem{
  
-  border-radius: 10px;
+  
  
 }
 #secondItem{
-  border-radius: 10px;
+ 
   
 }
 #thirdItem{
-  border-radius: 10px;
-  ;
+  
+  
 }
 
 .content1{
@@ -200,8 +200,11 @@ margin-right: 100px;
   width: 350px;
   background-color: rgba(255, 255, 255, 0);
   /* border: solid  rgba(214, 199, 197, 0.322); */
-  border: solid  rgba(36, 6, 2, 0.116);
+
   height: 200px; 
+
+  box-shadow :0 0 1px rgb(134, 134, 134);
+ 
   /* text-overflow:ellipsis; */
 }
 
@@ -213,7 +216,7 @@ width: 50px;
 height: 24px;
 padding-right: 10px;
 width: 100px;
-
+border: none;
 box-shadow: none !important ;
 
 
@@ -261,6 +264,24 @@ box-shadow: none !important ;
  
 
 }
+.image{
+  /* margin-left: 70px; */
+  display: flex;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0);
+ 
+  padding: 0 30px;
+  margin-top: 0;
+
+
+}
+
+.image img{
+
+  height: 160px;
+  width: 350px;
+  border-radius: 0px;
+}
 .problem{
 
   overflow: hidden;
@@ -303,6 +324,11 @@ font-size: 20px;
  font-size: 15px;
  color: white;
 
+}
+
+.calling{
+
+  margin-right: 40px;
 }
 .problem{
 font-size: 14px;}
