@@ -10,7 +10,8 @@ const itemc = [
 
   company_name : ' Malvia',
 
-item_name : 'Rhodium-Plated CZ Floral Studs',current_price : '10,000.000',
+item_name : 'Rhodium-Plated CZ Floral Studs',
+current_price : '10,000.000',
 original_Price : '1045.000',
 discount_Precentage: '45',
   },
