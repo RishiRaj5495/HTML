@@ -33,14 +33,7 @@ padding: 0.0rem;
   padding: 0 1.5rem 0 1.5rem;
 }
 
-.music-player{
-  background-color: rgb(251, 255, 0);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
 
-}
 .a{
 
 text-decoration: none;
@@ -155,7 +148,7 @@ height: 2rem;
 .black{
 background-color: black;
 flex: 1;
-margin-right: 20px;
+
 }
 .stickynote{
   display: flex;
@@ -164,8 +157,8 @@ margin-right: 20px;
   background-color: #121212;
   border-radius: 1rem;
   align-items: center;
+ position: fixed;
  
-
 
 
 }
@@ -175,6 +168,7 @@ margin-right: 20px;
   align-content: center;
   justify-content: space-between;
   margin-right: 10px;
+  margin-left: 550px;
 }
 .sticky-nav-option i{
 
@@ -247,4 +241,66 @@ flex: wrap;
   .card1_subtitle{
     font-size: 0.75rem;
     opacity: 0.8;
+  }
+  .footer{
+     height: 300px;
+  display: flex;
+
+
+
+
+
+  }
+  .line{
+    margin-left:80px;
+  
+    margin-top: 60px;
+
+    width: 80%;
+ height: 30%;
+border-top: 1px solid white;
+opacity: 0.4;
+
+
+  }
+  .music-player{
+    background-color: rgb(251, 255, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+
+  
+  }
+  .left_player{
+    height: 100%;
+    width: 250px;
+    background-color: black;
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding-top: .5rem;
+padding-bottom: .5rem;
+  }
+  .player_image{
+ 
+    height: 20px;
+    width: 80px;
+  }
+  .play_title{
+
+ font-size: 12px;
+ font-weight: 700;
+line-height: 1.2rem;
+  }
+  .play_subtitle{
+opacity: 0.8;
+    font-size: 8px;
+  }
+
+  .middle_player{
+
+  }
+  .right_player{
+
   }
