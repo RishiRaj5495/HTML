@@ -269,6 +269,8 @@ opacity: 0.4;
     bottom: 0;
     width: 100%;
     height: 60px;
+    display: flex;
+
 
   
   }
@@ -279,13 +281,17 @@ opacity: 0.4;
     display: flex;
 align-items: center;
 justify-content: space-evenly;
-padding-top: .5rem;
-padding-bottom: .5rem;
+/* padding-top: .5rem; */
+
   }
-  .player_image{
- 
-    height: 20px;
-    width: 80px;
+   .player_image_cont{
+    
+    height: 50px;
+    width: 65px;
+    position: relative;
+    
+    
+
   }
   .play_title{
 
@@ -299,8 +305,31 @@ opacity: 0.8;
   }
 
   .middle_player{
-
+background-color: black;
+height: 100%;
+display: flex;
   }
   .right_player{
 
   }
+  .merge_image{
+   height: 1rem;
+
+  }
+     
+  
+  .backward_Play{
+    height: 1rem;
+  }
+  .restart {
+    height: 1rem;
+    
+  }
+  .forward_Play{
+   
+    height: 1rem;
+  }
+  .pouse_button{
+    
+    height: 1rem;
+}
